@@ -1,0 +1,399 @@
+
+{
+    "version": "4.2.3.v202011021201",
+    "created": "2020-11-23 09:52",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs": 5,
+                "nrfails": 6,
+                "exectime": 149,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager",
+                "nrexecs": 73,
+                "nrfails": 0,
+                "exectime": 27,
+                "nrcreated": 3,
+                "successor": "org.knime.ext.osm.node.mapview.OsmMapViewNodeFactory#OSM Map View"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 40,
+                "nrfails": 0,
+                "exectime": 17,
+                "nrcreated": 4,
+                "successor": "org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory#Topic Extractor (Parallel LDA)"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory#Scatter Matrix (local)",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 14,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter",
+                "nrexecs": 13,
+                "nrfails": 0,
+                "exectime": 5665,
+                "nrcreated": 2,
+                "successor": "ws.palladian.nodes.extraction.location.utils.dist.GeoCoordinateDistanceNodeFactory#Geo Distances"
+            },
+            {
+                "id": "org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory#Normalizer",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 22,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.viz.plotter.scattermatrix.ScatterMatrixNodeFactory#Scatter Matrix (local)"
+            },
+            {
+                "id": "org.knime.base.node.mine.cluster.kmeans.ClusterNodeFactory2#k-Means",
+                "nrexecs": 21,
+                "nrfails": 0,
+                "exectime": 1908,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+            },
+            {
+                "id": "org.knime.js.base.node.viz.plotter.scatterSelectionAppender.ScatterPlotNodeFactory#Scatter Plot",
+                "nrexecs": 11,
+                "nrfails": 0,
+                "exectime": 2277,
+                "nrcreated": 3,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.viz.plotter.scatter.ScatterPlotterNodeFactory#Scatter Plot (local)",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.io.filereader.FileReaderNodeFactory#File Reader",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 5011,
+                "nrcreated": 2,
+                "successor": "NodeContainer"
+            },
+            {
+                "id": "org.knime.ext.osm.node.mapview.OsmMapViewNodeFactory#OSM Map View",
+                "nrexecs": 96,
+                "nrfails": 0,
+                "exectime": 2621,
+                "nrcreated": 3,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory#Geo-Coordinate Row Filter",
+                "nrexecs": 14,
+                "nrfails": 0,
+                "exectime": 2106,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.missingvaluecolfilter.MissingValueColumnFilterNodeFactory#Missing Value Column Filter",
+                "nrexecs": 15,
+                "nrfails": 0,
+                "exectime": 138,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter",
+                "nrexecs": 36,
+                "nrfails": 0,
+                "exectime": 1407,
+                "nrcreated": 5,
+                "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 560,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.preproc.duplicates.DuplicateRowFilterNodeFactory#Duplicate Row Filter"
+            },
+            {
+                "id": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN",
+                "nrexecs": 75,
+                "nrfails": 1,
+                "exectime": 2324313,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2#Strings To Document"
+            },
+            {
+                "id": "org.knime.distance.measure.numerical.NumericalDistanceNodeFactory#Numeric Distances",
+                "nrexecs": 16,
+                "nrfails": 0,
+                "exectime": 11,
+                "nrcreated": 2,
+                "successor": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN"
+            },
+            {
+                "id": "org.knime.distmatrix.knn.KnnDistNodeFactory2#K Nearest Neighbor (Distance Function)",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.distance.bytevector.ByteVectorDistanceNodeFactory#Byte Vector Distances",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distmatrix.similaritysearch.SimilaritySearchNodeFactory#Similarity Search",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distance.measure.mahalanobis.MahalanobisDistanceNodeFactory#Mahalanobis Distance",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 30,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN"
+            },
+            {
+                "id": "org.knime.distmatrix.calculate.measure.MatrixDistanceNodeFactory#Matrix Distance",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.distmatrix.calculate2.DistanceMatrixCalculate2NodeFactory#Distance Matrix Calculate",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.pair.PairExtractorNodeFactory#Distance Matrix Pair Extractor",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "ws.palladian.nodes.extraction.location.utils.dist.GeoCoordinateDistanceNodeFactory#Geo Distances",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 5,
+                "nrcreated": 5,
+                "successor": "org.knime.base.node.mine.dbscan.DBSCANNodeFactory#DBSCAN"
+            },
+            {
+                "id": "ws.palladian.nodes.extraction.location.utils.LatitudeLongitudeToCoordinateNodeFactory#Latitude/Longitude to Coordinate",
+                "nrexecs": 9,
+                "nrfails": 0,
+                "exectime": 238,
+                "nrcreated": 1,
+                "successor": "ws.palladian.nodes.extraction.location.utils.dist.GeoCoordinateDistanceNodeFactory#Geo Distances"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.transformation.stringstodocument.StringsToDocumentNodeFactory2#Strings To Document",
+                "nrexecs": 9,
+                "nrfails": 0,
+                "exectime": 2734,
+                "nrcreated": 2,
+                "successor": "org.knime.ext.textprocessing.nodes.tagging.pos.PosTaggerNodeFactory2#POS Tagger"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.view.tagcloud.outport.TagCloudNodeFactory#Tag Cloud",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 1077,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.tagging.pos.PosTaggerNodeFactory2#POS Tagger",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 12803,
+                "nrcreated": 2,
+                "successor": "org.knime.ext.textprocessing.nodes.frequencies.tf.TfNodeFactory#TF"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.cooccurrencecounter.CooccurrenceCounterNodeFactory#Term Co-Occurrence Counter",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "org.knime.ext.textprocessing.nodes.transformation.documentvector.DocumentVectorNodeFactory2#Document Vector"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.transformation.documentvector.DocumentVectorNodeFactory2#Document Vector",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 2119,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.frequencies.tf.TfNodeFactory#TF",
+                "nrexecs": 10,
+                "nrfails": 0,
+                "exectime": 307,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.tagfilter2.TagFilterNodeFactory2#Tag Filter",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 1223,
+                "nrcreated": 0,
+                "successor": "org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory2#Bag Of Words Creator"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.rowref.RowFilterRefNodeFactory#Reference Row Filter",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 212,
+                "nrcreated": 0,
+                "successor": "org.knime.ext.textprocessing.nodes.frequencies.tf.TfNodeFactory#TF"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.numberfilter.NumberFilterNodeFactory2#Number Filter",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 1064,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.puncterasure.PunctuationErasureNodeFactory2#Punctuation Erasure",
+                "nrexecs": 6,
+                "nrfails": 0,
+                "exectime": 1102,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.stopwordfilter.StopWordFilterNodeFactory3#Stop Word Filter",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 1395,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.caseconverter.CaseConverterNodeFactory2#Case Converter",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 2098,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.preprocessing.snowballstemmer.SnowballStemmerNodeFactory2#Snowball Stemmer",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 1658,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.transformation.bow.BagOfWordsNodeFactory2#Bag Of Words Creator",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 483,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.transformation.termtostring.TermToStringNodeFactory#Term To String",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 123,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs": 8,
+                "nrfails": 0,
+                "exectime": 175,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.misc.categorytoclass.CategoryToClassNodeFactory#Category To Class",
+                "nrexecs": 4,
+                "nrfails": 0,
+                "exectime": 55,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.row.RowFilterNodeFactory#Row Filter"
+            },
+            {
+                "id": "org.knime.ext.textprocessing.nodes.mining.topic.ParallelTopicExtractorNodeFactory#Topic Extractor (Parallel LDA)",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 100109,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.viz.property.color.ColorManager2NodeFactory#Color Manager"
+            },
+            {
+                "id": "org.knime.js.base.node.viz.tagcloud.TagCloudViewNodeFactory#Tag Cloud",
+                "nrexecs": 11,
+                "nrfails": 2,
+                "exectime": 46858,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.image.writeimage.WriteImageNodeFactory#Image Writer (Port)"
+            },
+            {
+                "id": "org.knime.base.node.image.writeimage.WriteImageNodeFactory#Image Writer (Port)",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 3,
+                "nrcreated": 1,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.ext.osm.node.map2img.OsmMap2ImgNodeFactory#OSM Map to Image",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 362,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 40804256,
+    "workflowsOpened": 21,
+    "remoteWorkflowsOpened": 28,
+    "workflowsImported": 1,
+    "workflowsExported": 0,
+    "launches": 5,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 26435008,
+    "crashes": 0,
+    "properlyShutDown": false
+}

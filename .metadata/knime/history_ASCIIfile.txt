@@ -1,0 +1,6 @@
+file:/C:/Users/affad/OneDrive/Bureau/M2%20IA/Data%20Mining/TP/TP2/flickr_data.csv
+knime://knime.workflow/data.all
+knime://knime.workflow/data/Top125largestcities.txt
+knime://knime.workflow/data/Top10smallestcities.txt
+C:\Users\affad\OneDrive\Bureau\M2 IA\Data Mining\TP\TP2\flickr_data.csv
+knime://knime.workflow/data/sales_2008-2011.csv

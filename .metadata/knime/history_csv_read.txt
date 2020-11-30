@@ -1,0 +1,4 @@
+C:\Users\affad\OneDrive\Bureau\M2 IA\Data Mining\TP\TP2\flickr_data.csv
+C:\Users\affad\OneDrive\Bureau\M2 IA\Data Mining\TP\TP2\Iris.csv
+C:\Users\affad\OneDrive\Bureau\M2 IA\Data Mining\TP\TP2\boers.csv
+C:\Users\affad\OneDrive\Bureau\M2 IA\Data Mining\TP\TP2\Dataset.csv

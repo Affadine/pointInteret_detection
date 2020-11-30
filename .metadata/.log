@@ -1,0 +1,1707 @@
+!SESSION 2020-11-23 09:51:32.652 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-23 09:52:01.773
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-23 09:52:01.773
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@563ada5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12548f9a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-23 09:52:04.812
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-23 09:52:04.814
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-11-23 09:57:17.379
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-11-23 09:57:17.379
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-11-23 09:57:17.379
+!MESSAGE "KNIME SVG Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.379
+!MESSAGE "KNIME Quick Forms" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.379
+!MESSAGE "KNIME JavaScript Views" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.379
+!MESSAGE "KNIME ServerSpace" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.379
+!MESSAGE "KNIME Public Server Access" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-11-23 09:57:17.379
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Software being installed: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Software currently installed: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.379
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Filehandling functionality for KNIME 4.2.0.v202007090843 (org.knime.filehandling.core 4.2.0.v202007090843)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Filehandling functionality for KNIME 4.2.2.v202009241053 (org.knime.filehandling.core 4.2.2.v202009241053)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Filehandling functionality for KNIME 4.2.3.v202011021201 (org.knime.filehandling.core 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202009020812 (org.knime.filehandling.core 4.2.1.v202009020812)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202008242201 (org.knime.filehandling.core 4.2.1.v202008242201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.379
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE From: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.base.feature.group [4.2.2.v202009241438,4.2.2.v202009241438]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.379
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE From: KNIME Base nodes 4.2.2.v202009241438 (org.knime.features.base.feature.group 4.2.2.v202009241438)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.2.v202009241053,4.2.2.v202009241053]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.379
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE From: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.379
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.3.v202011021201,4.2.3.v202011021201]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-11-23 09:57:17.391
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-11-23 09:57:17.391
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-11-23 09:57:17.391
+!MESSAGE "KNIME SVG Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.391
+!MESSAGE "KNIME Quick Forms" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.391
+!MESSAGE "KNIME JavaScript Views" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.391
+!MESSAGE "KNIME ServerSpace" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.391
+!MESSAGE "KNIME Public Server Access" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-11-23 09:57:17.391
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Software being installed: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Software currently installed: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.391
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Filehandling functionality for KNIME 4.2.0.v202007090843 (org.knime.filehandling.core 4.2.0.v202007090843)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Filehandling functionality for KNIME 4.2.2.v202009241053 (org.knime.filehandling.core 4.2.2.v202009241053)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Filehandling functionality for KNIME 4.2.3.v202011021201 (org.knime.filehandling.core 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202009020812 (org.knime.filehandling.core 4.2.1.v202009020812)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202008242201 (org.knime.filehandling.core 4.2.1.v202008242201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.391
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE From: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.base.feature.group [4.2.2.v202009241438,4.2.2.v202009241438]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.391
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE From: KNIME Base nodes 4.2.2.v202009241438 (org.knime.features.base.feature.group 4.2.2.v202009241438)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.391
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.2.v202009241053,4.2.2.v202009241053]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.392
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.392
+!MESSAGE From: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.392
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.3.v202011021201,4.2.3.v202011021201]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-11-23 09:57:17.461
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-11-23 09:57:17.461
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-11-23 09:57:17.461
+!MESSAGE "KNIME SVG Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.461
+!MESSAGE "KNIME Quick Forms" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.461
+!MESSAGE "KNIME JavaScript Views" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.461
+!MESSAGE "KNIME ServerSpace" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.461
+!MESSAGE "KNIME Public Server Access" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-11-23 09:57:17.461
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Software being installed: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Software currently installed: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.461
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Filehandling functionality for KNIME 4.2.0.v202007090843 (org.knime.filehandling.core 4.2.0.v202007090843)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Filehandling functionality for KNIME 4.2.2.v202009241053 (org.knime.filehandling.core 4.2.2.v202009241053)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Filehandling functionality for KNIME 4.2.3.v202011021201 (org.knime.filehandling.core 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202009020812 (org.knime.filehandling.core 4.2.1.v202009020812)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202008242201 (org.knime.filehandling.core 4.2.1.v202008242201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.461
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE From: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.base.feature.group [4.2.2.v202009241438,4.2.2.v202009241438]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.461
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE From: KNIME Base nodes 4.2.2.v202009241438 (org.knime.features.base.feature.group 4.2.2.v202009241438)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.2.v202009241053,4.2.2.v202009241053]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.461
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE From: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.461
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.3.v202011021201,4.2.3.v202011021201]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2020-11-23 09:57:17.462
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2020-11-23 09:57:17.462
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2020-11-23 09:57:17.462
+!MESSAGE "KNIME SVG Support" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.462
+!MESSAGE "KNIME Quick Forms" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.462
+!MESSAGE "KNIME JavaScript Views" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.462
+!MESSAGE "KNIME ServerSpace" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2020-11-23 09:57:17.462
+!MESSAGE "KNIME Public Server Access" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2020-11-23 09:57:17.462
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Software being installed: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Software currently installed: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.462
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Filehandling functionality for KNIME 4.2.0.v202007090843 (org.knime.filehandling.core 4.2.0.v202007090843)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Filehandling functionality for KNIME 4.2.2.v202009241053 (org.knime.filehandling.core 4.2.2.v202009241053)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Filehandling functionality for KNIME 4.2.3.v202011021201 (org.knime.filehandling.core 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202009020812 (org.knime.filehandling.core 4.2.1.v202009020812)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE Filehandling functionality for KNIME 4.2.1.v202008242201 (org.knime.filehandling.core 4.2.1.v202008242201)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.462
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE From: KNIME Analytics Platform 4.2.2.v202009251451 (org.knime.desktop.product 4.2.2.v202009251451)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.base.feature.group [4.2.2.v202009241438,4.2.2.v202009241438]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.462
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE From: KNIME Base nodes 4.2.2.v202009241438 (org.knime.features.base.feature.group 4.2.2.v202009241438)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.2.v202009241053,4.2.2.v202009241053]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-11-23 09:57:17.462
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE From: KNIME File Handling Testing Framework 4.2.3.v202011021201 (org.knime.features.filehandling.core.testing.feature.group 4.2.3.v202011021201)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-11-23 09:57:17.462
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.filehandling.core [4.2.3.v202011021201,4.2.3.v202011021201]
+
+!ENTRY org.eclipse.ui 4 0 2020-11-23 11:06:47.618
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: No such node ID: 3:7
+	at org.knime.core.node.workflow.WorkflowManager.getNodeContainer(WorkflowManager.java:6684)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionsFor(WorkflowManager.java:1612)
+	at org.knime.workbench.editor2.NodeSupplantDragListener.mouseDown(NodeSupplantDragListener.java:237)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:196)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2020-11-23 11:40:55.732 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-23 12:00:38.522
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-23 12:00:38.522
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ca5cb99,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7853363c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-23 12:00:40.517
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-23 12:00:40.518
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SESSION 2020-11-25 10:28:32.956 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-25 10:29:11.369
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-25 10:29:11.369
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12d44a2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a66be41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-25 10:29:22.720
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-25 10:29:22.723
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.645
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.647
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.652
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.653
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.655
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.657
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.659
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.661
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.664
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.691
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 17:11:07.702
+!MESSAGE Unable to download workflow: javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLException: java.net.SocketException: Connection reset
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.389
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.528
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.530
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.560
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.571
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.581
+!MESSAGE Unable to download workflow: Read timed out
+
+!ENTRY org.knime.workbench.explorer.view 4 0 2020-11-25 20:56:01.606
+!MESSAGE Unable to download workflow: Read timed out
+!SESSION 2020-11-29 10:39:29.599 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-29 10:40:22.360
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-29 10:40:22.360
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@210d3a42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@356f20b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 10:41:56.773
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 10:41:56.775
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2020-11-29 15:50:21.849
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\affad\AppData\Local\Temp\KNIMEProfile_2ec28f773980_c0a82becfde0
+!SESSION 2020-11-29 15:54:57.692 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-29 15:58:28.911
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-29 15:58:28.911
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@590dea35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6550ce46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 15:58:30.509
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 15:58:30.511
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:09:10.847
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:09:10.847
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.847
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.847
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:09:10.852
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:09:10.852
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.852
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.852
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:09:10.858
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:09:10.858
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.858
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.858
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:09:10.858
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:09:10.858
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.858
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:09:10.858
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:10:58.875
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:10:58.875
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:10:58.875
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:10:58.875
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:10:58.880
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:10:58.880
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:10:58.880
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:10:58.880
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:12:49.519
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:12:49.519
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:12:49.519
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:12:49.519
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:12:49.523
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:12:49.523
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:12:49.523
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:12:49.523
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:14:56.718
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:14:56.718
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:14:56.718
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:14:56.718
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:14:56.724
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:14:56.724
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:14:56.724
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:14:56.724
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 18:17:28.349
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.nodepit.com/palladian/4.0.zip.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:700)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-29 18:17:28.349
+!MESSAGE No repository found at http://download.nodepit.com/palladian/4.0.zip.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-29 18:17:28.350
+!MESSAGE No repository found at http://download.nodepit.com/palladian/4.0.zip.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 18:17:45.068
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.nodepit.com/palladian/4.0.zip.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:661)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:190)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-29 18:17:45.068
+!MESSAGE No repository found at http://download.nodepit.com/palladian/4.0.zip.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-11-29 18:17:45.068
+!MESSAGE No repository found at http://download.nodepit.com/palladian/4.0.zip.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:21:52.859
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:21:52.859
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:21:52.859
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:21:52.859
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:21:52.864
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:21:52.864
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:21:52.864
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:21:52.864
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:24:58.710
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:24:58.710
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:24:58.710
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:24:58.710
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:24:58.715
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:24:58.715
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:24:58.715
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:24:58.715
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:27:29.254
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:27:29.254
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:27:29.254
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:27:29.254
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:27:29.255
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:27:29.255
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:27:29.255
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:27:29.255
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:28:04.867
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:28:04.867
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:28:04.867
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:28:04.867
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:28:04.872
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:28:04.872
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:28:04.872
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:28:04.872
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2020-11-29 18:35:33.794
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:11" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart.access$3(WorkflowRootEditPart.java:1)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart$1.run(WorkflowRootEditPart.java:430)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-29 18:35:33.794
+!MESSAGE 
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:11" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart.access$3(WorkflowRootEditPart.java:1)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart$1.run(WorkflowRootEditPart.java:430)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:38:27.161
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:38:27.161
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:38:27.161
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:38:27.161
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:38:27.166
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:38:27.166
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:38:27.166
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:38:27.166
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:40:03.956
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:40:03.956
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:40:03.956
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:40:03.956
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:40:03.957
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:40:03.957
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:40:03.957
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:40:03.957
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:41:12.523
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:41:12.523
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:41:12.523
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:41:12.523
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:41:12.528
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:41:12.528
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:41:12.528
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:41:12.528
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:45:35.304
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:45:35.304
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:45:35.304
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:45:35.304
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:45:35.310
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:45:35.310
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:45:35.310
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:45:35.310
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:48:52.451
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:48:52.451
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:48:52.451
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:48:52.451
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 18:48:52.456
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 18:48:52.456
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:48:52.456
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 18:48:52.456
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-11-29 19:53:03.371
+!MESSAGE Connection to http://update.knime.org/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.3/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar failed on update.knime.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: update.knime.org
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-11-29 19:53:03.578
+!MESSAGE Connection to http://update.knime.org/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.2/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar failed on update.knime.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: update.knime.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-11-29 19:53:03.785
+!MESSAGE Connection to http://update.knime.org/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.1/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar failed on update.knime.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: update.knime.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-11-29 19:53:03.991
+!MESSAGE Connection to http://update.knime.org/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.0/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar failed on update.knime.org. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: update.knime.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-11-29 19:53:04.198
+!MESSAGE Connection to https://update.knime.com/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.2/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar failed on update.knime.com. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: update.knime.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-11-29 19:53:04.403
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-11-29 19:53:04.403
+!MESSAGE session context was:(profile=KNIMEProfile, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1006 2020-11-29 19:53:04.403
+!MESSAGE Unknown Host: https://update.knime.com/analytics-platform/4.2/knid=01-aeb67e56a22e8212/4.2.2/plugins/org.knime.ext.textprocessing.models_2016.11.23.v201908121605.jar
+!STACK 0
+java.net.UnknownHostException: update.knime.com
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1281)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 19:54:01.417
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 19:54:01.417
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 19:54:01.417
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 19:54:01.417
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-11-29 19:54:01.423
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-11-29 19:54:01.423
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 19:54:01.423
+!MESSAGE Software being installed: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-11-29 19:54:01.423
+!MESSAGE Missing requirement: Palladian for KNIME: Deprecated Nodes (depends on KNIME Textprocessing) 2.3.0.202009251618 (ws.palladian.nodes.deprecated.feature.feature.group 2.3.0.202009251618) requires 'org.eclipse.equinox.p2.iu; org.knime.features.ext.textprocessing.feature.group 3.3.1' but it could not be found
+!SESSION 2020-11-29 20:23:38.378 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.jface 2 0 2020-11-29 20:23:49.120
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-29 20:23:49.120
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@990b86b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(knime.commands.findnode,Find Node...,
+		Finds a Node in the workflow.,
+		Category(knime.command.category,KNIME Workflow Editor commands,Commands available for the workflow editor,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dea1ecc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 20:23:50.409
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-11-29 20:23:50.409
+!MESSAGE Exception during event notification
+!STACK 0
+java.lang.IllegalArgumentException: Location must be absolute: ..
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.checkValidLocation(AbstractRepositoryManager.java:756)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.contains(AbstractRepositoryManager.java:252)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.addRepository(AbstractRepositoryManager.java:167)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.notify(AbstractRepositoryManager.java:825)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:103)
+	at org.eclipse.equinox.internal.p2.core.ProvisioningEventBus.dispatchEvent(ProvisioningEventBus.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.ui 4 0 2020-11-29 20:23:51.932
+!MESSAGE Startup class com.nodepit.knime.Activator must implement org.eclipse.ui.IStartup
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2020-11-29 23:32:42.167
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:23" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-29 23:32:42.168
+!MESSAGE 
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:23" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2020-11-29 23:37:17.511
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:121" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-29 23:37:17.511
+!MESSAGE 
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:121" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2020-11-29 23:37:20.248
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:121" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-29 23:37:20.248
+!MESSAGE 
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "3:121" not contained in workflow, nor it's the workflow itself (ID of this workflow is "3")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.eclipse.gef.editparts.AbstractEditPart.refresh(AbstractEditPart.java:726)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.refresh(AbstractGraphicalEditPart.java:644)
+	at org.knime.workbench.editor2.WorkflowEditor.lambda$22(WorkflowEditor.java:3611)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2020-11-30 03:42:20.203
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "5:16" not contained in workflow, nor it's the workflow itself (ID of this workflow is "5")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart.access$3(WorkflowRootEditPart.java:1)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart$1.run(WorkflowRootEditPart.java:430)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2020-11-30 03:42:20.204
+!MESSAGE 
+!STACK 0
+java.lang.IllegalArgumentException: Node ID "5:16" not contained in workflow, nor it's the workflow itself (ID of this workflow is "5")
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:255)
+	at org.knime.core.node.util.CheckUtils.checkArgument(CheckUtils.java:132)
+	at org.knime.core.node.workflow.WorkflowManager.getIncomingConnectionFor(WorkflowManager.java:1588)
+	at org.knime.core.ui.wrapper.WorkflowManagerWrapper.getIncomingConnectionFor(WorkflowManagerWrapper.java:234)
+	at org.knime.workbench.workflowcoach.NodeRecommendationManager.getNodeRecommendationFor(NodeRecommendationManager.java:356)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.updateInput(WorkflowCoachView.java:434)
+	at org.knime.workbench.workflowcoach.ui.WorkflowCoachView.selectionChanged(WorkflowCoachView.java:352)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:240)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:94)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:68)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.access$2(SelectionAggregator.java:118)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:467)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.fireSelectionChanged(AbstractEditPartViewer.java:247)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer$1.run(AbstractEditPartViewer.java:131)
+	at org.eclipse.gef.SelectionManager.fireSelectionChanged(SelectionManager.java:156)
+	at org.eclipse.gef.SelectionManager.deselect(SelectionManager.java:126)
+	at org.eclipse.gef.ui.parts.AbstractEditPartViewer.deselect(AbstractEditPartViewer.java:202)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeNotify(AbstractEditPart.java:942)
+	at org.eclipse.gef.editparts.AbstractGraphicalEditPart.removeNotify(AbstractGraphicalEditPart.java:823)
+	at org.eclipse.gef.editparts.AbstractEditPart.removeChild(AbstractEditPart.java:880)
+	at org.eclipse.gef.editparts.AbstractEditPart.refreshChildren(AbstractEditPart.java:793)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart.access$3(WorkflowRootEditPart.java:1)
+	at org.knime.workbench.editor2.editparts.WorkflowRootEditPart$1.run(WorkflowRootEditPart.java:430)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.knime.product.rcp.KNIMEApplication.start(KNIMEApplication.java:174)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="4"/>
+<entry key="ignoredColumns" type="xint" value="2"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="22"/>
+<entry key="0" type="xint" value="414"/>
+<entry key="1" type="xint" value="92"/>
+<entry key="2" type="xint" value="185"/>
+<entry key="3" type="xint" value="870"/>
+<entry key="4" type="xint" value="146"/>
+<entry key="5" type="xint" value="60"/>
+<entry key="6" type="xint" value="208"/>
+<entry key="7" type="xint" value="297"/>
+<entry key="8" type="xint" value="873"/>
+<entry key="9" type="xint" value="281"/>
+<entry key="10" type="xint" value="158"/>
+<entry key="11" type="xint" value="1046"/>
+<entry key="12" type="xint" value="204"/>
+<entry key="13" type="xint" value="1077"/>
+<entry key="14" type="xint" value="1119"/>
+<entry key="15" type="xint" value="512"/>
+<entry key="16" type="xint" value="581"/>
+<entry key="17" type="xint" value="322"/>
+<entry key="18" type="xint" value="589"/>
+<entry key="19" type="xint" value="181"/>
+<entry key="20" type="xint" value="178"/>
+<entry key="21" type="xint" value="417"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.76060886231889"/>
+<entry key="1" type="xdouble" value="4.841772072463773"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.72499626086955"/>
+<entry key="1" type="xdouble" value="4.837702750000003"/>
+</config>
+<config key="kMeansCluster2">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.73209102702702"/>
+<entry key="1" type="xdouble" value="4.821414313513515"/>
+</config>
+<config key="kMeansCluster3">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.77915371609174"/>
+<entry key="1" type="xdouble" value="4.85467227011496"/>
+</config>
+<config key="kMeansCluster4">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.7384024452055"/>
+<entry key="1" type="xdouble" value="4.814692705479453"/>
+</config>
+<config key="kMeansCluster5">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.79646663333334"/>
+<entry key="1" type="xdouble" value="4.836921616666667"/>
+</config>
+<config key="kMeansCluster6">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.77481101923075"/>
+<entry key="1" type="xdouble" value="4.808074009615384"/>
+</config>
+<config key="kMeansCluster7">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.7742810976431"/>
+<entry key="1" type="xdouble" value="4.8281070404040305"/>
+</config>
+<config key="kMeansCluster8">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.761946495990806"/>
+<entry key="1" type="xdouble" value="4.821314902634584"/>
+</config>
+<config key="kMeansCluster9">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.74272796441279"/>
+<entry key="1" type="xdouble" value="4.819002160142349"/>
+</config>
+<config key="kMeansCluster10">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.76050485443039"/>
+<entry key="1" type="xdouble" value="4.895193259493673"/>
+</config>
+<config key="kMeansCluster11">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.782706301147044"/>
+<entry key="1" type="xdouble" value="4.876142476099465"/>
+</config>
+<config key="kMeansCluster12">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.75538166176474"/>
+<entry key="1" type="xdouble" value="4.82500308333333"/>
+</config>
+<config key="kMeansCluster13">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.76997154874664"/>
+<entry key="1" type="xdouble" value="4.835233055710321"/>
+</config>
+<config key="kMeansCluster14">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.7614089678283"/>
+<entry key="1" type="xdouble" value="4.827949803395891"/>
+</config>
+<config key="kMeansCluster15">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.762788687499906"/>
+<entry key="1" type="xdouble" value="4.834430816406258"/>
+</config>
+<config key="kMeansCluster16">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.766899611015596"/>
+<entry key="1" type="xdouble" value="4.8289766729776336"/>
+</config>
+<config key="kMeansCluster17">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.74351894409939"/>
+<entry key="1" type="xdouble" value="4.868619891304336"/>
+</config>
+<config key="kMeansCluster18">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.75730171986418"/>
+<entry key="1" type="xdouble" value="4.833087553480476"/>
+</config>
+<config key="kMeansCluster19">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.74751127624312"/>
+<entry key="1" type="xdouble" value="4.830043276243095"/>
+</config>
+<config key="kMeansCluster20">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.749097325842705"/>
+<entry key="1" type="xdouble" value="4.844806775280894"/>
+</config>
+<config key="kMeansCluster21">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="45.762037781774595"/>
+<entry key="1" type="xdouble" value="4.857803371702639"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="lat"/>
+<entry key="1" type="xstring" value="long"/>
+<entry key="2" type="xstring" isnull="true" value=""/>
+<entry key="3" type="xstring" isnull="true" value=""/>
+</config>
+</config>
